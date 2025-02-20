@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Diabetes Prediction", layout="wide", page_icon="🧑‍⚕")
 
-diabetes_model_path = r"C:\Users\shash\Desktop\mine\diabetes_model.sav"
+diabetes_model_path = r"diabetes_model.sav"
 diabetes_model = pickle.load(open(diabetes_model_path,'rb'))
 
 st.title ('Diabetes Prediction using ML')
